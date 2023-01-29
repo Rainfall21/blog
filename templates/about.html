@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>My name is Alibek Ismagulov. I was born June 1st 1994. Graduated from Saratov State University in 2016 with bachelor's degree and Saratov Socio-Economic Institute in 2019 with master's degree.</p>
+        <p>I have worked in big international companies such as British American Tobacco and PepsiCo. Right now I'm working as an planning manager in Russian Company. I want to become software engineer in the nearest future.</p>
+        <p>I'm the man of not so many interests. I love different genres of music. Fond of movies and cinematography. Really want to learn how to play guitar. Also I'm interested in technology and videogames. Hitting the gym in my spare time. Absolutely love travelling.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
